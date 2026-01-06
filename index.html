@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <title>Glossy Nails - Luxury Nail Salon | Tampa, FL</title>
+    <meta name="description" content="Glossy Nails - Luxury nail salon in Tampa, Florida. Professional nail care services with elegant space.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="top-bar-container">
+            <div class="top-bar-left">
+                <i class="fas fa-phone"></i>
+                <span>Booking Hotline: <a href="tel:813-533-7237">813-533-7237</a></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-text">Glossy Nails</span>
+                <span class="logo-estd">ESTD 2021</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="dich-vu.html" class="nav-link">Services</a></li>
+                <li><a href="thu-vien.html" class="nav-link">Gallery</a></li>
+                <li><a href="ve-chung-toi.html" class="nav-link">About Us</a></li>
+                <li><a href="danh-gia.html" class="nav-link">Reviews</a></li>
+                <li><a href="#" class="nav-link" id="openBookingModal">Book Appointment</a></li>
+                <li><a href="lien-he.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <img src="anhnen.png" alt="Background" class="hero-bg-image">
+            <div class="hero-overlay"></div>
+            <div class="particles" id="particles"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">Welcome To</span>
+                    <span class="title-main">Glossy Nails</span>
+                    <span class="title-subtitle">Where Beauty Meets Luxury</span>
+                </h1>
+                <p class="hero-description">Experience premium nail services in an elegant space in Tampa, Florida</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">Explore Services</a>
+                    <a href="#" class="btn btn-secondary" id="openBookingModalBtn">Book Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="arrow">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Services</span>
+                <h2 class="section-title">Professional Nail Care</h2>
+                <p class="section-description">Discover our premium services</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-image">
+                        <img src="w1.png" alt="Manicure Cao Cấp">
+                    </div>
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Premium Manicure</h3>
+                    <p>Professional nail care service with premium products and expert techniques</p>
+                    <ul class="service-features">
+                        <li>Hand care treatment</li>
+                        <li>Premium gel polish</li>
+                        <li>Artistic design</li>
+                    </ul>
+                    <div class="service-price">From $35</div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-image">
+                        <img src="w2.png" alt="Pedicure Thư Giãn">
+                    </div>
+                    <div class="service-icon">
+                        <i class="fas fa-hand-paper"></i>
+                    </div>
+                    <h3>Relaxing Pedicure</h3>
+                    <p>Foot care with relaxing therapy and professional massage</p>
+                    <ul class="service-features">
+                        <li>Herbal foot soak</li>
+                        <li>Foot massage</li>
+                        <li>Foot skin care</li>
+                    </ul>
+                    <div class="service-price">From $40</div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-image">
+                        <img src="w3.png" alt="Gel Nails">
+                    </div>
+                    <div class="service-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>Gel Nails</h3>
+                    <p>Long-lasting gel polish with various colors and luxurious effects</p>
+                    <ul class="service-features">
+                        <li>Clear gel</li>
+                        <li>Premium colored gel</li>
+                        <li>Special effects</li>
+                    </ul>
+                    <div class="service-price">From $45</div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-image">
+                        <img src="w4.png" alt="Nail Art Nghệ Thuật">
+                    </div>
+                    <div class="service-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3>Artistic Nail Art</h3>
+                    <p>Unique nail art designs customized to your preferences</p>
+                    <ul class="service-features">
+                        <li>Hand-painted art</li>
+                        <li>Gems & diamonds</li>
+                        <li>Personalized design</li>
+                    </ul>
+                    <div class="service-price">From $50</div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-image">
+                        <img src="w5.png" alt="Dịch Vụ Spa Móng">
+                    </div>
+                    <div class="service-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>Nail Spa Service</h3>
+                    <p>Complete spa package for hands and feet</p>
+                    <ul class="service-features">
+                        <li>Comprehensive care</li>
+                        <li>Organic products</li>
+                        <li>Premium experience</li>
+                    </ul>
+                    <div class="service-price">From $80</div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-image">
+                        <img src="w6.png" alt="Gói VIP">
+                    </div>
+                    <div class="service-icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <h3>VIP Package</h3>
+                    <p>The most luxurious experience with exclusive services</p>
+                    <ul class="service-features">
+                        <li>Private VIP room</li>
+                        <li>Premium services</li>
+                        <li>Personalized care</li>
+                    </ul>
+                    <div class="service-price">From $120</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Gallery</span>
+                <h2 class="section-title">Our Work</h2>
+                <p class="section-description">Admire our beautiful nail art creations</p>
+            </div>
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="manicure">Manicure</button>
+                <button class="filter-btn" data-filter="pedicure">Pedicure</button>
+                <button class="filter-btn" data-filter="nailart">Nail Art</button>
+                <button class="filter-btn" data-filter="gel">Gel Nails</button>
+            </div>
+            <div class="gallery-grid" id="galleryGrid">
+                <div class="gallery-item" data-category="manicure">
+                    <div class="gallery-image">
+                        <img src="w7.png" alt="Gallery Image" loading="lazy">
+                        <div class="gallery-overlay"></div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="nailart">
+                    <div class="gallery-image">
+                        <img src="w8.png" alt="Gallery Image" loading="lazy">
+                        <div class="gallery-overlay"></div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="gel">
+                    <div class="gallery-image">
+                        <img src="w9.png" alt="Gallery Image" loading="lazy">
+                        <div class="gallery-overlay"></div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="pedicure">
+                    <div class="gallery-image">
+                        <img src="w10.png" alt="Gallery Image" loading="lazy">
+                        <div class="gallery-overlay"></div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="nailart">
+                    <div class="gallery-image">
+                        <img src="w11.png" alt="Gallery Image" loading="lazy">
+                        <div class="gallery-overlay"></div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="manicure">
+                    <div class="gallery-image">
+                        <img src="w12.jpg" alt="Gallery Image" loading="lazy">
+                        <div class="gallery-overlay"></div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="gel">
+                    <div class="gallery-image">
+                        <img src="w13.png" alt="Gallery Image" loading="lazy">
+                        <div class="gallery-overlay"></div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="nailart">
+                    <div class="gallery-image">
+                        <img src="w14.png" alt="Gallery Image" loading="lazy">
+                        <div class="gallery-overlay"></div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="manicure">
+                    <div class="gallery-image">
+                        <img src="w15.png" alt="Gallery Image" loading="lazy">
+                        <div class="gallery-overlay"></div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="pedicure">
+                    <div class="gallery-image">
+                        <img src="w16.png" alt="Gallery Image" loading="lazy">
+                        <div class="gallery-overlay"></div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="gel">
+                    <div class="gallery-image">
+                        <img src="w17.png" alt="Gallery Image" loading="lazy">
+                        <div class="gallery-overlay"></div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="nailart">
+                    <div class="gallery-image">
+                        <img src="w18.png" alt="Gallery Image" loading="lazy">
+                        <div class="gallery-overlay"></div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="manicure">
+                    <div class="gallery-image">
+                        <img src="w19.jpg" alt="Gallery Image" loading="lazy">
+                        <div class="gallery-overlay"></div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="pedicure">
+                    <div class="gallery-image">
+                        <img src="w20.png" alt="Gallery Image" loading="lazy">
+                        <div class="gallery-overlay"></div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="nailart">
+                    <div class="gallery-image">
+                        <img src="w21.jpg" alt="Gallery Image" loading="lazy">
+                        <div class="gallery-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <div class="about-image-wrapper">
+                        <img src="w1.png" alt="Glossy Nails - About Us" style="width: 100%; height: 100%; object-fit: cover; border-radius: 20px;">
+                        <div class="image-decoration"></div>
+                    </div>
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <span class="section-tag">About Us</span>
+                    <h2 class="section-title">Glossy Nails - Where Beauty Meets Luxury</h2>
+                    <p class="about-description">
+                        With over 10 years of experience in the nail industry, Glossy Nails is proud to be one of the most luxurious nail salons in Tampa, Florida. We are committed to providing our clients with the finest nail care experiences.
+                    </p>
+                    <p class="about-description">
+                        Our professional team, well-trained with premium products from world-renowned brands, ensures that every client receives the most dedicated and professional care.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="10000">0</div>
+                            <div class="stat-label">Satisfied Clients</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="10">0</div>
+                            <div class="stat-label">Years of Experience</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="50">0</div>
+                            <div class="stat-label">Works Per Day</div>
+                        </div>
+                    </div>
+                    <a href="#contact-map" class="btn btn-primary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Reviews</span>
+                <h2 class="section-title">What Our Clients Say</h2>
+                <p class="section-description">Honest feedback from our clients</p>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-track" id="testimonialTrack">
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Excellent service! The staff is very professional and the space is very elegant. My nails look absolutely beautiful!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">SM</div>
+                            <div class="author-info">
+                                <div class="author-name">Sarah Martinez</div>
+                                <div class="author-title">Regular Client</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"I've tried many nail salons but Glossy Nails is the best! The service quality and products are both excellent."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">JW</div>
+                            <div class="author-info">
+                                <div class="author-name">Jennifer Williams</div>
+                                <div class="author-title">VIP Client</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Beautiful space, friendly staff and very professional nail techniques. I will come back many times!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">EB</div>
+                            <div class="author-info">
+                                <div class="author-name">Emily Brown</div>
+                                <div class="author-title">New Client</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Their nail spa service is truly wonderful! I felt completely relaxed and my nails look beautiful."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">LD</div>
+                            <div class="author-info">
+                                <div class="author-name">Lisa Davis</div>
+                                <div class="author-title">Frequent Client</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-btn prev" id="prevTestimonial">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="slider-btn next" id="nextTestimonial">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                <div class="slider-dots" id="testimonialDots"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Map Section -->
+    <section id="contact-map" class="contact-map-section">
+        <div class="container">
+            <h2 class="section-title" style="text-align: center; margin-bottom: 3rem;">Contact</h2>
+            <div class="contact-map-wrapper">
+                <div class="contact-info-box">
+                    <h3>Contact Information</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Address:</strong>
+                                <p>3680 W Gandy Blvd #102<br>Tampa, FL 33611</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <strong>Phone:</strong>
+                                <p><a href="tel:813-533-7237">813-533-7237</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <strong>Business Hours:</strong>
+                                <p>Mon-Fri: 9:30 AM - 7:00 PM<br>Saturday: 9:30 AM - 5:30 PM<br>Sunday: CLOSED</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-directions"></i>
+                            <div>
+                                <a href="https://www.google.com/maps/place/3680+W+Gandy+Blvd+%23102,+Tampa,+FL+33611,+Hoa+K%E1%BB%B3/@27.89342,-82.508198,17z/data=!3m1!4b1!4m6!3m5!1s0x88c2dcc4fb10d583:0x1de4205f943619c4!8m2!3d27.8934153!4d-82.5056231!16s%2Fg%2F11pvcwtzb0?entry=ttu" target="_blank" class="btn btn-primary" style="margin-top: 1rem;">Get Directions</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3526.1234567890123!2d-82.5056231!3d27.8934153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2dcc4fb10d583%3A0x1de4205f943619c4!2s3680%20W%20Gandy%20Blvd%20%23102%2C%20Tampa%2C%20FL%2033611!5e0!3m2!1svi!2sus!4v1700000000000!5m2!1svi!2sus" 
+                        width="100%" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Glossy Nails - 3680 W Gandy Blvd #102, Tampa, FL 33611">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <span>Glossy Nails</span>
+                    </div>
+                    <p>Where beauty meets luxury. We are committed to providing the highest quality nail care services.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                        <a href="#"><i class="fab fa-yelp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="dich-vu.html">Services</a></li>
+                        <li><a href="thu-vien.html">Gallery</a></li>
+                        <li><a href="ve-chung-toi.html">About Us</a></li>
+                        <li><a href="danh-gia.html">Reviews</a></li>
+                        <li><a href="dat-lich.html">Book Appointment</a></li>
+                        <li><a href="lien-he.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#services">Manicure</a></li>
+                        <li><a href="#services">Pedicure</a></li>
+                        <li><a href="#services">Gel Nails</a></li>
+                        <li><a href="#services">Nail Art</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Information</h3>
+                    <ul>
+                        <li>3680 W Gandy BLVD STE 102, Tampa, FL 33611</li>
+                        <li><a href="tel:813-533-7237">813-533-7237</a></li>
+                        <li>Mon-Fri: 9:30 AM - 7:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Glossy Nails. Designed By SongLang.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Buttons -->
+    <div class="floating-actions">
+        <a href="#" class="floating-btn floating-btn-booking" id="openBookingModalBtnFloat" title="Book Appointment">
+            <i class="fas fa-calendar-alt"></i>
+            <span class="floating-btn-text">BOOKING</span>
+        </a>
+        <a href="#contact-map" class="floating-btn floating-btn-location" title="Location">
+            <i class="fas fa-map-marker-alt"></i>
+        </a>
+        <a href="#" class="floating-btn floating-btn-social" title="Facebook">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <a href="#" class="floating-btn floating-btn-messenger" title="Messenger">
+            <i class="fab fa-facebook-messenger"></i>
+        </a>
+        <a href="tel:813-533-7237" class="floating-btn floating-btn-phone" title="Call Now">
+            <i class="fas fa-phone"></i>
+        </a>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <span class="arrow-up"></span>
+    </button>
+
+    <!-- Lightbox for Gallery -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <span class="lightbox-close" id="lightboxClose">&times;</span>
+            <img src="" alt="" id="lightboxImage">
+            <button class="lightbox-prev" id="lightboxPrev">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="lightbox-next" id="lightboxNext">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Booking Modal -->
+    <div class="booking-modal" id="bookingModal">
+        <div class="booking-modal-overlay"></div>
+        <div class="booking-modal-content">
+            <button class="booking-modal-close" id="closeBookingModal">&times;</button>
+            <div class="booking-modal-header">
+                <h2 class="booking-modal-title">Book Appointment</h2>
+                <p class="booking-modal-subtitle">Choose the service and time that works for you</p>
+            </div>
+            <div class="booking-modal-body">
+                <form class="booking-form" id="bookingFormModal">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="booking-name-modal">Full Name *</label>
+                            <input type="text" id="booking-name-modal" name="name" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="booking-phone-modal">Phone Number *</label>
+                            <input type="tel" id="booking-phone-modal" name="phone" placeholder="Enter your phone number" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="booking-email-modal">Email *</label>
+                            <input type="email" id="booking-email-modal" name="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="booking-date-modal">Appointment Date *</label>
+                            <input type="date" id="booking-date-modal" name="date" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="booking-time-modal">Appointment Time *</label>
+                            <select id="booking-time-modal" name="time" required>
+                                <option value="">Select time</option>
+                                <option value="09:30">9:30 AM</option>
+                                <option value="10:00">10:00 AM</option>
+                                <option value="10:30">10:30 AM</option>
+                                <option value="11:00">11:00 AM</option>
+                                <option value="11:30">11:30 AM</option>
+                                <option value="12:00">12:00 PM</option>
+                                <option value="12:30">12:30 PM</option>
+                                <option value="13:00">1:00 PM</option>
+                                <option value="13:30">1:30 PM</option>
+                                <option value="14:00">2:00 PM</option>
+                                <option value="14:30">2:30 PM</option>
+                                <option value="15:00">3:00 PM</option>
+                                <option value="15:30">3:30 PM</option>
+                                <option value="16:00">4:00 PM</option>
+                                <option value="16:30">4:30 PM</option>
+                                <option value="17:00">5:00 PM</option>
+                                <option value="17:30">5:30 PM</option>
+                                <option value="18:00">6:00 PM</option>
+                                <option value="18:30">6:30 PM</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="booking-service-modal">Service *</label>
+                            <select id="booking-service-modal" name="service" required>
+                                <option value="">Select service</option>
+                                <option value="manicure">Premium Manicure - $35</option>
+                                <option value="pedicure">Relaxing Pedicure - $40</option>
+                                <option value="gel">Gel Nails - $45</option>
+                                <option value="nailart">Artistic Nail Art - $50</option>
+                                <option value="spa">Nail Spa Service - $80</option>
+                                <option value="vip">VIP Package - $120</option>
+                                <option value="combo">Combo Manicure + Pedicure - $70</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="booking-technician-modal">Select Technician (Optional)</label>
+                        <select id="booking-technician-modal" name="technician">
+                            <option value="">No preference (We will assign)</option>
+                            <option value="anna">Anna - Nail Art Specialist</option>
+                            <option value="maria">Maria - Gel Nails Specialist</option>
+                            <option value="sophia">Sophia - Nail Spa Specialist</option>
+                            <option value="emily">Emily - VIP Service Specialist</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="booking-notes-modal">Special Notes</label>
+                        <textarea id="booking-notes-modal" name="notes" rows="4" placeholder="Enter any special requests (colors, design, allergies, etc.)"></textarea>
+                    </div>
+
+                    <div class="form-group checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="booking-confirm-modal" name="confirm" required>
+                            <span>I confirm that the above information is accurate and agree to Glossy Nails' booking policy *</span>
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-full btn-large">
+                        Confirm Booking
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+

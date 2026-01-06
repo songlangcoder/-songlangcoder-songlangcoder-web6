@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Glossy Nails | Tampa, FL</title>
+    <meta name="description" content="Contact Glossy Nails - Luxury nail salon in Tampa, Florida.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="top-bar-container">
+            <div class="top-bar-left">
+                <i class="fas fa-phone"></i>
+                <span>Booking Hotline: <a href="tel:813-533-7237">813-533-7237</a></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-text">Glossy Nails</span>
+                <span class="logo-estd">ESTD 2021</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Trang Chủ</a></li>
+                <li><a href="dich-vu.html" class="nav-link">Dịch Vụ</a></li>
+                <li><a href="thu-vien.html" class="nav-link">Thư Viện</a></li>
+                <li><a href="ve-chung-toi.html" class="nav-link">Về Chúng Tôi</a></li>
+                <li><a href="danh-gia.html" class="nav-link">Đánh Giá</a></li>
+                <li><a href="dat-lich.html" class="nav-link">Đặt Lịch</a></li>
+                <li><a href="lien-he.html" class="nav-link active">Liên Hệ</a></li>
+            </ul>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Liên Hệ Chúng Tôi</h1>
+            <p class="page-subtitle">Chúng tôi rất mong được phục vụ bạn</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact contact-page">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <h3>Địa Chỉ</h3>
+                        <p>3680 W Gandy BLVD STE 102<br>Tampa, FL 33611</p>
+                        <a href="https://maps.google.com" target="_blank" class="btn btn-secondary" style="margin-top: 1rem; display: inline-block;">
+                            Chỉ Đường
+                        </a>
+                    </div>
+                    <div class="info-card">
+                        <h3>Điện Thoại</h3>
+                        <p><a href="tel:813-533-7237" style="font-size: 1.2rem; font-weight: 600;">813-533-7237</a></p>
+                        <p style="margin-top: 0.5rem; color: var(--text-light); font-size: 0.9rem;">Gọi ngay để đặt lịch hẹn</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>Giờ Mở Cửa</h3>
+                        <div class="hours-list">
+                            <div class="hours-item">
+                                <span>Thứ 2 - Thứ 6</span>
+                                <span>9:30 AM - 7:00 PM</span>
+                            </div>
+                            <div class="hours-item">
+                                <span>Thứ 7</span>
+                                <span>9:30 AM - 6:00 PM</span>
+                            </div>
+                            <div class="hours-item">
+                                <span>Chủ Nhật</span>
+                                <span>11:00 AM - 5:00 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <h3>Theo Dõi Chúng Tôi</h3>
+                        <p style="margin-bottom: 1rem; color: var(--text-light);">Kết nối với chúng tôi trên mạng xã hội</p>
+                        <div class="social-links">
+                            <a href="#" class="social-link" title="Facebook"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link" title="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link" title="TikTok"><i class="fab fa-tiktok"></i></a>
+                            <a href="#" class="social-link" title="Yelp"><i class="fab fa-yelp"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <h2 style="font-family: 'Playfair Display', serif; font-size: 2rem; margin-bottom: 2rem; text-align: center;">Gửi Tin Nhắn</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Tên của bạn" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Số điện thoại" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="subject" name="subject" required>
+                                <option value="">Chọn chủ đề</option>
+                                <option value="booking">Đặt lịch hẹn</option>
+                                <option value="question">Câu hỏi về dịch vụ</option>
+                                <option value="feedback">Phản hồi</option>
+                                <option value="other">Khác</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Tin nhắn của bạn" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            Gửi Tin Nhắn
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Map Section -->
+            <div class="map-section">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3526.1234567890123!2d-82.5056231!3d27.8934153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2dcc4fb10d583%3A0x1de4205f943619c4!2s3680%20W%20Gandy%20Blvd%20%23102%2C%20Tampa%2C%20FL%2033611!5e0!3m2!1svi!2sus!4v1700000000000!5m2!1svi!2sus&q=3680+W+Gandy+Blvd+%23102,+Tampa,+FL+33611" 
+                    width="100%" 
+                    height="500" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Glossy Nails - 3680 W Gandy Blvd #102, Tampa, FL 33611">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <span>Glossy Nails</span>
+                    </div>
+                    <p>Where beauty meets luxury. We are committed to providing the highest quality nail care services.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                        <a href="#"><i class="fab fa-yelp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="dich-vu.html">Services</a></li>
+                        <li><a href="thu-vien.html">Gallery</a></li>
+                        <li><a href="ve-chung-toi.html">About Us</a></li>
+                        <li><a href="danh-gia.html">Reviews</a></li>
+                        <li><a href="dat-lich.html">Book Appointment</a></li>
+                        <li><a href="lien-he.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="dich-vu.html">Manicure</a></li>
+                        <li><a href="dich-vu.html">Pedicure</a></li>
+                        <li><a href="dich-vu.html">Gel Nails</a></li>
+                        <li><a href="dich-vu.html">Nail Art</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Information</h3>
+                    <ul>
+                        <li>3680 W Gandy BLVD STE 102, Tampa, FL 33611</li>
+                        <li><a href="tel:813-533-7237">813-533-7237</a></li>
+                        <li>Mon-Fri: 9:30 AM - 7:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Glossy Nails. Designed By SongLang.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <span class="arrow-up"></span>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

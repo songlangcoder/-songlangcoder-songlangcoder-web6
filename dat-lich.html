@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment - Glossy Nails | Tampa, FL</title>
+    <meta name="description" content="Book an appointment at Glossy Nails - Premium nail services in Tampa, Florida.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="top-bar-container">
+            <div class="top-bar-left">
+                <i class="fas fa-phone"></i>
+                <span>Booking Hotline: <a href="tel:813-533-7237">813-533-7237</a></span>
+            </div>
+            <div class="top-bar-right">
+                <a href="#" class="top-bar-link">
+                    <i class="fas fa-search"></i>
+                    <span>Tìm kiếm</span>
+                </a>
+                <a href="#" class="top-bar-link">
+                    <i class="fas fa-user"></i>
+                    <span>Tài khoản</span>
+                </a>
+                <a href="#" class="top-bar-link cart-link">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span>Giỏ hàng</span>
+                    <span class="cart-badge">0</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-text">Glossy Nails</span>
+                <span class="logo-estd">ESTD 2021</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Trang Chủ</a></li>
+                <li><a href="dich-vu.html" class="nav-link">Dịch Vụ</a></li>
+                <li><a href="thu-vien.html" class="nav-link">Thư Viện</a></li>
+                <li><a href="ve-chung-toi.html" class="nav-link">Về Chúng Tôi</a></li>
+                <li><a href="danh-gia.html" class="nav-link">Đánh Giá</a></li>
+                <li><a href="dat-lich.html" class="nav-link active">Đặt Lịch</a></li>
+                <li><a href="lien-he.html" class="nav-link">Liên Hệ</a></li>
+            </ul>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Đặt Lịch Hẹn</h1>
+            <p class="page-subtitle">Chọn dịch vụ và thời gian phù hợp với bạn</p>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="booking-section">
+        <div class="container">
+            <div class="booking-content">
+                <div class="booking-form-wrapper">
+                    <h2 style="font-family: 'Playfair Display', serif; font-size: 2rem; margin-bottom: 2rem; text-align: center;">Thông Tin Đặt Lịch</h2>
+                    <form class="booking-form" id="bookingForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="booking-name">Họ và Tên *</label>
+                                <input type="text" id="booking-name" name="name" placeholder="Nhập họ và tên" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="booking-phone">Số Điện Thoại *</label>
+                                <input type="tel" id="booking-phone" name="phone" placeholder="Nhập số điện thoại" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="booking-email">Email *</label>
+                                <input type="email" id="booking-email" name="email" placeholder="Nhập email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="booking-date">Ngày Hẹn *</label>
+                                <input type="date" id="booking-date" name="date" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="booking-time">Giờ Hẹn *</label>
+                                <select id="booking-time" name="time" required>
+                                    <option value="">Chọn giờ</option>
+                                    <option value="09:30">9:30 AM</option>
+                                    <option value="10:00">10:00 AM</option>
+                                    <option value="10:30">10:30 AM</option>
+                                    <option value="11:00">11:00 AM</option>
+                                    <option value="11:30">11:30 AM</option>
+                                    <option value="12:00">12:00 PM</option>
+                                    <option value="12:30">12:30 PM</option>
+                                    <option value="13:00">1:00 PM</option>
+                                    <option value="13:30">1:30 PM</option>
+                                    <option value="14:00">2:00 PM</option>
+                                    <option value="14:30">2:30 PM</option>
+                                    <option value="15:00">3:00 PM</option>
+                                    <option value="15:30">3:30 PM</option>
+                                    <option value="16:00">4:00 PM</option>
+                                    <option value="16:30">4:30 PM</option>
+                                    <option value="17:00">5:00 PM</option>
+                                    <option value="17:30">5:30 PM</option>
+                                    <option value="18:00">6:00 PM</option>
+                                    <option value="18:30">6:30 PM</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="booking-service">Dịch Vụ *</label>
+                                <select id="booking-service" name="service" required>
+                                    <option value="">Chọn dịch vụ</option>
+                                    <option value="manicure">Manicure Cao Cấp - $35</option>
+                                    <option value="pedicure">Pedicure Thư Giãn - $40</option>
+                                    <option value="gel">Gel Nails - $45</option>
+                                    <option value="nailart">Nail Art Nghệ Thuật - $50</option>
+                                    <option value="spa">Dịch Vụ Spa Móng - $80</option>
+                                    <option value="vip">Gói VIP - $120</option>
+                                    <option value="combo">Combo Manicure + Pedicure - $70</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="booking-technician">Chọn Nghệ Nhân (Tùy Chọn)</label>
+                            <select id="booking-technician" name="technician">
+                                <option value="">Không chọn (Chúng tôi sẽ phân công)</option>
+                                <option value="anna">Anna - Chuyên Nail Art</option>
+                                <option value="maria">Maria - Chuyên Gel Nails</option>
+                                <option value="sophia">Sophia - Chuyên Spa Móng</option>
+                                <option value="emily">Emily - Chuyên VIP Service</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="booking-notes">Ghi Chú Đặc Biệt</label>
+                            <textarea id="booking-notes" name="notes" rows="4" placeholder="Nhập bất kỳ yêu cầu đặc biệt nào (màu sắc, thiết kế, dị ứng, v.v.)"></textarea>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="booking-confirm" name="confirm" required>
+                                <span>Tôi xác nhận thông tin trên là chính xác và đồng ý với chính sách đặt lịch của Glossy Nails *</span>
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-full btn-large">
+                            Xác Nhận Đặt Lịch
+                        </button>
+                    </form>
+                </div>
+
+                <div class="booking-info">
+                    <div class="info-card-booking">
+                        <h3>Giờ Mở Cửa</h3>
+                        <div class="hours-list">
+                            <div class="hours-item">
+                                <span>Thứ 2 - Thứ 6</span>
+                                <span>9:30 AM - 7:00 PM</span>
+                            </div>
+                            <div class="hours-item">
+                                <span>Thứ 7</span>
+                                <span>9:30 AM - 6:00 PM</span>
+                            </div>
+                            <div class="hours-item">
+                                <span>Chủ Nhật</span>
+                                <span>11:00 AM - 5:00 PM</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-card-booking">
+                        <h3>Lưu Ý Quan Trọng</h3>
+                        <ul class="booking-notes-list">
+                            <li>Vui lòng đến đúng giờ hẹn</li>
+                            <li>Hủy lịch trước 24 giờ để không bị phí</li>
+                            <li>Thanh toán tại tiệm sau khi hoàn thành dịch vụ</li>
+                            <li>Chấp nhận thanh toán bằng tiền mặt và thẻ</li>
+                            <li>Nếu có dị ứng, vui lòng thông báo trước</li>
+                        </ul>
+                    </div>
+
+                    <div class="info-card-booking">
+                        <h3>Liên Hệ Trực Tiếp</h3>
+                        <p style="margin-bottom: 1rem;">Nếu bạn có câu hỏi hoặc cần hỗ trợ đặc biệt, vui lòng gọi cho chúng tôi:</p>
+                        <a href="tel:813-533-7237" class="btn btn-secondary" style="display: inline-block;">
+                            813-533-7237
+                        </a>
+                    </div>
+
+                    <div class="info-card-booking">
+                        <h3>Địa Chỉ</h3>
+                        <p>3680 W Gandy BLVD STE 102<br>Tampa, FL 33611</p>
+                        <a href="https://maps.google.com" target="_blank" class="btn btn-secondary" style="margin-top: 1rem; display: inline-block;">
+                            Chỉ Đường
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <span>Glossy Nails</span>
+                    </div>
+                    <p>Where beauty meets luxury. We are committed to providing the highest quality nail care services.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                        <a href="#"><i class="fab fa-yelp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="dich-vu.html">Services</a></li>
+                        <li><a href="thu-vien.html">Gallery</a></li>
+                        <li><a href="ve-chung-toi.html">About Us</a></li>
+                        <li><a href="danh-gia.html">Reviews</a></li>
+                        <li><a href="dat-lich.html">Book Appointment</a></li>
+                        <li><a href="lien-he.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="dich-vu.html">Manicure</a></li>
+                        <li><a href="dich-vu.html">Pedicure</a></li>
+                        <li><a href="dich-vu.html">Gel Nails</a></li>
+                        <li><a href="dich-vu.html">Nail Art</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Information</h3>
+                    <ul>
+                        <li>3680 W Gandy BLVD STE 102, Tampa, FL 33611</li>
+                        <li><a href="tel:813-533-7237">813-533-7237</a></li>
+                        <li>Mon-Fri: 9:30 AM - 7:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Glossy Nails. Designed By SongLang.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <span class="arrow-up"></span>
+    </button>
+
+    <script src="script.js"></script>
+    <script>
+        // Set minimum date to today
+        const today = new Date().toISOString().split('T')[0];
+        document.getElementById('booking-date').setAttribute('min', today);
+
+        // Booking form submission
+        document.getElementById('bookingForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = {
+                name: document.getElementById('booking-name').value,
+                phone: document.getElementById('booking-phone').value,
+                email: document.getElementById('booking-email').value,
+                date: document.getElementById('booking-date').value,
+                time: document.getElementById('booking-time').value,
+                service: document.getElementById('booking-service').value,
+                technician: document.getElementById('booking-technician').value,
+                notes: document.getElementById('booking-notes').value
+            };
+            
+            const submitButton = this.querySelector('button[type="submit"]');
+            const originalText = submitButton.innerHTML;
+            
+            submitButton.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Đang Xử Lý...';
+            submitButton.disabled = true;
+            
+            // Simulate API call
+            setTimeout(() => {
+                submitButton.innerHTML = '<i class="fas fa-check"></i> Đặt Lịch Thành Công!';
+                submitButton.style.background = 'linear-gradient(135deg, #4caf50 0%, #45a049 100%)';
+                
+                // Show success message
+                alert('Cảm ơn bạn đã đặt lịch! Chúng tôi đã gửi email xác nhận đến ' + formData.email + '. Vui lòng kiểm tra email của bạn.');
+                
+                // Reset form
+                setTimeout(() => {
+                    this.reset();
+                    submitButton.innerHTML = originalText;
+                    submitButton.style.background = '';
+                    submitButton.disabled = false;
+                }, 3000);
+            }, 2000);
+            
+            console.log('Booking submitted:', formData);
+        });
+    </script>
+</body>
+</html>
+
